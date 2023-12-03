@@ -1,9 +1,9 @@
 public class Book {
     String title;
     String author;
-    String releasDate;
+    int releasDate;
 
-    public Book(String t, String a, String d){
+    public Book(String t, String a, int d){
         this.title = t;
         this.author = a;
         this.releasDate = d;
@@ -14,4 +14,5 @@ public class Book {
         System.out.println("Author: " + this.author);
         System.out.println("Release Date: " + this.releasDate);
     }
+
 }
